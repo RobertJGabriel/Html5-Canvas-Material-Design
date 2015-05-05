@@ -128,9 +128,8 @@ function findPos(obj) {
 Loads the canvas information to the left and right panel
 Theres alot here sorry
 */
-function canvas2() {
+function canvas() {
       
-     document.getElementById('Logo').style.background = 'url(images/' + 'w.png' + ')center';
     var leftDiv = document.getElementById('left');
     var rightDiv = document.getElementById('right');
 
@@ -140,15 +139,6 @@ function canvas2() {
 
     var menuDiv = document.getElementById('menu');
 
-    var downloadButton = document.createElement('button');
-        downloadButton.setAttribute('id', 'download');
-        downloadButton.innerHTML = "Download";
-        menuDiv.appendChild(downloadButton);
-
-    var clearButton = document.createElement('button');
-        clearButton.setAttribute('id', 'clear');
-        clearButton.innerHTML = "Clear";
-        menuDiv.appendChild(clearButton);
 
     var lineH2 = document.createElement('h2');
         lineH2.innerHTML = "Line";
@@ -156,6 +146,7 @@ function canvas2() {
 
     var lineWidth = document.createElement('select');
         lineWidth.setAttribute("id", "width2");
+        lineWidth.setAttribute("class","form-control");
 
     var value = ["4", "10", "15"];
     var text = ["Light", "Middle", "Thick"];
@@ -176,7 +167,7 @@ function canvas2() {
 
     var lineWidth2 = document.createElement('select');
         lineWidth2.setAttribute("id", "colors");
-
+       lineWidth2.setAttribute("class","form-control");
     var value1 = ["#000000", "#e74c3c", "#2980b9", "#2ecc71", "#d35400", "#8e44ad", "#ecf0f1"];
     var text1 = ["Black", "Red", "Blue", "Green", "Orange", "Purple", "White"];
 
@@ -196,6 +187,7 @@ function canvas2() {
 
     var lineWidth3 = document.createElement('select');
         lineWidth3.setAttribute("id", "fill");
+           lineWidth3.setAttribute("class","form-control");
 
     for (var i = 0; i < text1.length; i++) {
         var options = document.createElement('option');
@@ -205,13 +197,52 @@ function canvas2() {
     }
     menuDiv.appendChild(lineWidth3);
 
+    
+    
+       var options = document.createElement('h2');
+        options.innerHTML = "Options";
+        menuDiv.appendChild(options);
+    
+     var downloadButton = document.createElement('button');
+        downloadButton.setAttribute('id', 'download');
+        downloadButton.setAttribute('class', 'btn btn-primary');
+        downloadButton.innerHTML = "Save";
+        menuDiv.appendChild(downloadButton);
+
+    var clearButton = document.createElement('button');
+        clearButton.setAttribute('id', 'clear');
+        clearButton.setAttribute('class', 'btn btn-danger');
+        clearButton.innerHTML = "Clear";
+        menuDiv.appendChild(clearButton);
+    
+    
+    
+    
+    
+    
     var newCanvas = document.createElement('canvas');
-        newCanvas.width = 400;
-        newCanvas.height = 600;
+             newCanvas.width =  rightDiv.clientWidth- 50;
+        newCanvas.height = window.innerHeight;
         newCanvas.setAttribute("id", "canvas_1");
         document.getElementById("right").appendChild(newCanvas);
     
-
+    var tipTitle = document.createElement('h4');
+        tipTitle.innerHTML = "Tip";
+        menuDiv.appendChild(tipTitle);
+    
+    
+    
+    
+     var tipMain = document.createElement('p');
+        tipMain.innerHTML = "Hold Ctrl and drag the mouse to draw a cicrle :-O";
+        menuDiv.appendChild(tipMain);
+    
+    
+    
+    
+    
+    
+    
         canvas = document.getElementById("canvas_1");
         canvas.addEventListener("mousedown", doMouseDown, false);
         canvas.addEventListener("mouseup", doMouseUp, false);
@@ -219,12 +250,24 @@ function canvas2() {
         document.getElementById("clear").addEventListener('click', cleanStart, false);
         document.getElementById("download").addEventListener('click', downloadCanvas, false);
         
-    cleanStart();
+    
+ cleanStart() ;
     
 }
 
 
 
+
+function cleanStart() {
+
+   var canvas = document.getElementById('canvas_1');
+   var  cntxt = canvas.getContext('2d');
+   var imageObj = new Image();
+ cntxt.clearRect(0, 0, canvas.width, canvas.height);
+
+       
+  
+}
 
 
 

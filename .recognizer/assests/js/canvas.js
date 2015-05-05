@@ -3,7 +3,7 @@
  * https://github.com/equiet/recognizer
  */
 
-var __recognizer935067708 = (function () {
+var __recognizer455719278 = (function () {
     'use strict';
 
     var global = this;
@@ -158,18 +158,18 @@ var __recognizer935067708 = (function () {
  */
 
 window.onload = function () {
-    __recognizer935067708.logEntry([
+    __recognizer455719278.logEntry([
         1,
         16,
         1,
         24
     ], arguments);
-    __recognizer935067708.logProbe([
+    __recognizer455719278.logProbe([
         4,
         0,
         4,
         8
-    ], __recognizer935067708.logProbe([
+    ], __recognizer455719278.logProbe([
         4,
         0,
         4,
@@ -190,76 +190,76 @@ var temp;
 var searches = '';
 var numItems;
 function doMouseDown(event) {
-    __recognizer935067708.logEntry([
+    __recognizer455719278.logEntry([
         34,
         9,
         34,
         20
     ], arguments);
     paint = true;
-    x = __recognizer935067708.logProbe([
+    x = __recognizer455719278.logProbe([
         36,
         14,
         36,
         21
-    ], __recognizer935067708.logProbe([
+    ], __recognizer455719278.logProbe([
         36,
         8,
         36,
         13
     ], event).clientX);
-    y = __recognizer935067708.logProbe([
+    y = __recognizer455719278.logProbe([
         37,
         14,
         37,
         20
-    ], __recognizer935067708.logProbe([
+    ], __recognizer455719278.logProbe([
         37,
         8,
         37,
         13
     ], event).layerY);
     (function () {
-        var obj = __recognizer935067708.logProbe([
+        var obj = __recognizer455719278.logProbe([
                 39,
                 4,
                 39,
                 9
-            ], cntxt), fn = __recognizer935067708.logProbe([
+            ], cntxt), fn = __recognizer455719278.logProbe([
                 39,
                 10,
                 39,
                 16
             ], obj.moveTo);
         return fn.apply(obj, arguments);
-    }.bind(this)(__recognizer935067708.logProbe([
+    }.bind(this)(__recognizer455719278.logProbe([
         39,
         17,
         39,
         18
-    ], x) - __recognizer935067708.logProbe([
+    ], x) - __recognizer455719278.logProbe([
         39,
         21,
         39,
         25
-    ], left), __recognizer935067708.logProbe([
+    ], left), __recognizer455719278.logProbe([
         39,
         27,
         39,
         28
-    ], y) - __recognizer935067708.logProbe([
+    ], y) - __recognizer455719278.logProbe([
         39,
         31,
         39,
         40
     ], canvastop)));
     (function () {
-        var obj = __recognizer935067708.logProbe([
+        var obj = __recognizer455719278.logProbe([
                 40,
                 4,
                 40,
                 9
-            ], cntxt), fn = __recognizer935067708.logProbe([
+            ], cntxt), fn = __recognizer455719278.logProbe([
                 40,
                 10,
                 40,
@@ -268,12 +268,12 @@ function doMouseDown(event) {
         return fn.apply(obj, arguments);
     }.bind(this)());
     (function () {
-        var obj = __recognizer935067708.logProbe([
+        var obj = __recognizer455719278.logProbe([
                 41,
                 4,
                 41,
                 9
-            ], cntxt), fn = __recognizer935067708.logProbe([
+            ], cntxt), fn = __recognizer455719278.logProbe([
                 41,
                 10,
                 41,
@@ -283,76 +283,76 @@ function doMouseDown(event) {
     }.bind(this)());
 }
 function doMouseUp(event) {
-    __recognizer935067708.logEntry([
+    __recognizer455719278.logEntry([
         46,
         9,
         46,
         18
     ], arguments);
     paint = false;
-    x = __recognizer935067708.logProbe([
+    x = __recognizer455719278.logProbe([
         48,
         14,
         48,
         21
-    ], __recognizer935067708.logProbe([
+    ], __recognizer455719278.logProbe([
         48,
         8,
         48,
         13
     ], event).clientX);
-    y = __recognizer935067708.logProbe([
+    y = __recognizer455719278.logProbe([
         49,
         14,
         49,
         21
-    ], __recognizer935067708.logProbe([
+    ], __recognizer455719278.logProbe([
         49,
         8,
         49,
         13
     ], event).clientY);
     (function () {
-        var obj = __recognizer935067708.logProbe([
+        var obj = __recognizer455719278.logProbe([
                 51,
                 4,
                 51,
                 9
-            ], cntxt), fn = __recognizer935067708.logProbe([
+            ], cntxt), fn = __recognizer455719278.logProbe([
                 51,
                 10,
                 51,
                 16
             ], obj.lineTo);
         return fn.apply(obj, arguments);
-    }.bind(this)(__recognizer935067708.logProbe([
+    }.bind(this)(__recognizer455719278.logProbe([
         51,
         17,
         51,
         18
-    ], x) - __recognizer935067708.logProbe([
+    ], x) - __recognizer455719278.logProbe([
         51,
         21,
         51,
         25
-    ], left) + 1, __recognizer935067708.logProbe([
+    ], left) + 1, __recognizer455719278.logProbe([
         51,
         31,
         51,
         32
-    ], y) - __recognizer935067708.logProbe([
+    ], y) - __recognizer455719278.logProbe([
         51,
         35,
         51,
         44
     ], canvastop) + 1));
     (function () {
-        var obj = __recognizer935067708.logProbe([
+        var obj = __recognizer455719278.logProbe([
                 52,
                 4,
                 52,
                 9
-            ], cntxt), fn = __recognizer935067708.logProbe([
+            ], cntxt), fn = __recognizer455719278.logProbe([
                 52,
                 10,
                 52,
@@ -361,12 +361,12 @@ function doMouseUp(event) {
         return fn.apply(obj, arguments);
     }.bind(this)());
     (function () {
-        var obj = __recognizer935067708.logProbe([
+        var obj = __recognizer455719278.logProbe([
                 53,
                 4,
                 53,
                 9
-            ], cntxt), fn = __recognizer935067708.logProbe([
+            ], cntxt), fn = __recognizer455719278.logProbe([
                 53,
                 10,
                 53,
@@ -376,24 +376,24 @@ function doMouseUp(event) {
     }.bind(this)());
 }
 function doMouseMove(event) {
-    __recognizer935067708.logEntry([
+    __recognizer455719278.logEntry([
         58,
         9,
         58,
         20
     ], arguments);
-    fill = __recognizer935067708.logProbe([
+    fill = __recognizer455719278.logProbe([
         59,
         43,
         59,
         48
     ], function () {
-        var obj = __recognizer935067708.logProbe([
+        var obj = __recognizer455719278.logProbe([
                 59,
                 11,
                 59,
                 19
-            ], document), fn = __recognizer935067708.logProbe([
+            ], document), fn = __recognizer455719278.logProbe([
                 59,
                 20,
                 59,
@@ -401,18 +401,18 @@ function doMouseMove(event) {
             ], obj.getElementById);
         return fn.apply(obj, arguments);
     }.bind(this)('fill').value);
-    thickness = __recognizer935067708.logProbe([
+    thickness = __recognizer455719278.logProbe([
         60,
         50,
         60,
         55
     ], function () {
-        var obj = __recognizer935067708.logProbe([
+        var obj = __recognizer455719278.logProbe([
                 60,
                 16,
                 60,
                 24
-            ], document), fn = __recognizer935067708.logProbe([
+            ], document), fn = __recognizer455719278.logProbe([
                 60,
                 25,
                 60,
@@ -420,18 +420,18 @@ function doMouseMove(event) {
             ], obj.getElementById);
         return fn.apply(obj, arguments);
     }.bind(this)('width2').value);
-    colors = __recognizer935067708.logProbe([
+    colors = __recognizer455719278.logProbe([
         61,
         47,
         61,
         52
     ], function () {
-        var obj = __recognizer935067708.logProbe([
+        var obj = __recognizer455719278.logProbe([
                 61,
                 13,
                 61,
                 21
-            ], document), fn = __recognizer935067708.logProbe([
+            ], document), fn = __recognizer455719278.logProbe([
                 61,
                 22,
                 61,
@@ -440,12 +440,12 @@ function doMouseMove(event) {
         return fn.apply(obj, arguments);
     }.bind(this)('colors').value);
     cntxt = function () {
-        var obj = __recognizer935067708.logProbe([
+        var obj = __recognizer455719278.logProbe([
                 62,
                 12,
                 62,
                 18
-            ], canvas), fn = __recognizer935067708.logProbe([
+            ], canvas), fn = __recognizer455719278.logProbe([
                 62,
                 19,
                 62,
@@ -453,13 +453,13 @@ function doMouseMove(event) {
             ], obj.getContext);
         return fn.apply(obj, arguments);
     }.bind(this)('2d');
-    cntxt.strokeStyle = __recognizer935067708.logProbe([
+    cntxt.strokeStyle = __recognizer455719278.logProbe([
         63,
         24,
         63,
         30
     ], colors);
-    cntxt.lineWidth = __recognizer935067708.logProbe([
+    cntxt.lineWidth = __recognizer455719278.logProbe([
         64,
         22,
         64,
@@ -467,12 +467,12 @@ function doMouseMove(event) {
     ], thickness);
     cntxt.lineCap = 'round';
     rect = function () {
-        var obj = __recognizer935067708.logProbe([
+        var obj = __recognizer455719278.logProbe([
                 67,
                 11,
                 67,
                 17
-            ], canvas), fn = __recognizer935067708.logProbe([
+            ], canvas), fn = __recognizer455719278.logProbe([
                 67,
                 18,
                 67,
@@ -480,97 +480,97 @@ function doMouseMove(event) {
             ], obj.getBoundingClientRect);
         return fn.apply(obj, arguments);
     }.bind(this)();
-    canvastop = __recognizer935067708.logProbe([
+    canvastop = __recognizer455719278.logProbe([
         68,
         21,
         68,
         24
-    ], __recognizer935067708.logProbe([
+    ], __recognizer455719278.logProbe([
         68,
         16,
         68,
         20
     ], rect).top);
-    left = __recognizer935067708.logProbe([
+    left = __recognizer455719278.logProbe([
         69,
         16,
         69,
         20
-    ], __recognizer935067708.logProbe([
+    ], __recognizer455719278.logProbe([
         69,
         11,
         69,
         15
     ], rect).left);
-    if (__recognizer935067708.logProbe([
+    if (__recognizer455719278.logProbe([
             71,
             8,
             71,
             13
         ], paint)) {
-        x = __recognizer935067708.logProbe([
+        x = __recognizer455719278.logProbe([
             72,
             18,
             72,
             25
-        ], __recognizer935067708.logProbe([
+        ], __recognizer455719278.logProbe([
             72,
             12,
             72,
             17
         ], event).clientX);
-        y = __recognizer935067708.logProbe([
+        y = __recognizer455719278.logProbe([
             73,
             18,
             73,
             25
-        ], __recognizer935067708.logProbe([
+        ], __recognizer455719278.logProbe([
             73,
             12,
             73,
             17
         ], event).clientY);
         (function () {
-            var obj = __recognizer935067708.logProbe([
+            var obj = __recognizer455719278.logProbe([
                     74,
                     8,
                     74,
                     13
-                ], cntxt), fn = __recognizer935067708.logProbe([
+                ], cntxt), fn = __recognizer455719278.logProbe([
                     74,
                     14,
                     74,
                     20
                 ], obj.lineTo);
             return fn.apply(obj, arguments);
-        }.bind(this)(__recognizer935067708.logProbe([
+        }.bind(this)(__recognizer455719278.logProbe([
             74,
             21,
             74,
             22
-        ], x) - __recognizer935067708.logProbe([
+        ], x) - __recognizer455719278.logProbe([
             74,
             25,
             74,
             29
-        ], left), __recognizer935067708.logProbe([
+        ], left), __recognizer455719278.logProbe([
             74,
             31,
             74,
             32
-        ], y) - __recognizer935067708.logProbe([
+        ], y) - __recognizer455719278.logProbe([
             74,
             35,
             74,
             44
         ], canvastop)));
         (function () {
-            var obj = __recognizer935067708.logProbe([
+            var obj = __recognizer455719278.logProbe([
                     75,
                     8,
                     75,
                     13
-                ], cntxt), fn = __recognizer935067708.logProbe([
+                ], cntxt), fn = __recognizer455719278.logProbe([
                     75,
                     14,
                     75,
@@ -578,17 +578,17 @@ function doMouseMove(event) {
                 ], obj.stroke);
             return fn.apply(obj, arguments);
         }.bind(this)());
-        __recognizer935067708.logProbe([
+        __recognizer455719278.logProbe([
             76,
             8,
             76,
             27
-        ], __recognizer935067708.logProbe([
+        ], __recognizer455719278.logProbe([
             76,
             8,
             76,
             20
-        ], isKeyPressed)(__recognizer935067708.logProbe([
+        ], isKeyPressed)(__recognizer455719278.logProbe([
             76,
             21,
             76,
@@ -597,19 +597,19 @@ function doMouseMove(event) {
     }
 }
 function downloadCanvas() {
-    __recognizer935067708.logEntry([
+    __recognizer455719278.logEntry([
         87,
         9,
         87,
         23
     ], arguments);
     var d = function () {
-            var obj = __recognizer935067708.logProbe([
+            var obj = __recognizer455719278.logProbe([
                     88,
                     12,
                     88,
                     18
-                ], canvas), fn = __recognizer935067708.logProbe([
+                ], canvas), fn = __recognizer455719278.logProbe([
                     88,
                     19,
                     88,
@@ -618,12 +618,12 @@ function downloadCanvas() {
             return fn.apply(obj, arguments);
         }.bind(this)('image/png');
     (function () {
-        var obj = __recognizer935067708.logProbe([
+        var obj = __recognizer455719278.logProbe([
                 89,
                 4,
                 89,
                 10
-            ], window), fn = __recognizer935067708.logProbe([
+            ], window), fn = __recognizer455719278.logProbe([
                 89,
                 11,
                 89,
@@ -631,12 +631,12 @@ function downloadCanvas() {
             ], obj.open);
         return fn.apply(obj, arguments);
     }.bind(this)(function () {
-        var obj = __recognizer935067708.logProbe([
+        var obj = __recognizer455719278.logProbe([
                 89,
                 16,
                 89,
                 22
-            ], canvas), fn = __recognizer935067708.logProbe([
+            ], canvas), fn = __recognizer455719278.logProbe([
                 89,
                 23,
                 89,
@@ -646,35 +646,35 @@ function downloadCanvas() {
     }.bind(this)('image/png')));
 }
 function isKeyPressed(event) {
-    __recognizer935067708.logEntry([
+    __recognizer455719278.logEntry([
         94,
         9,
         94,
         21
     ], arguments);
-    if (__recognizer935067708.logProbe([
+    if (__recognizer455719278.logProbe([
             95,
             14,
             95,
             22
-        ], __recognizer935067708.logProbe([
+        ], __recognizer455719278.logProbe([
             95,
             8,
             95,
             13
         ], event).shiftKey) == 1) {
-        var fill = __recognizer935067708.logProbe([
+        var fill = __recognizer455719278.logProbe([
                 96,
                 51,
                 96,
                 56
             ], function () {
-                var obj = __recognizer935067708.logProbe([
+                var obj = __recognizer455719278.logProbe([
                         96,
                         19,
                         96,
                         27
-                    ], document), fn = __recognizer935067708.logProbe([
+                    ], document), fn = __recognizer455719278.logProbe([
                         96,
                         28,
                         96,
@@ -682,18 +682,18 @@ function isKeyPressed(event) {
                     ], obj.getElementById);
                 return fn.apply(obj, arguments);
             }.bind(this)('fill').value);
-        var thickness = __recognizer935067708.logProbe([
+        var thickness = __recognizer455719278.logProbe([
                 97,
                 58,
                 97,
                 63
             ], function () {
-                var obj = __recognizer935067708.logProbe([
+                var obj = __recognizer455719278.logProbe([
                         97,
                         24,
                         97,
                         32
-                    ], document), fn = __recognizer935067708.logProbe([
+                    ], document), fn = __recognizer455719278.logProbe([
                         97,
                         33,
                         97,
@@ -701,18 +701,18 @@ function isKeyPressed(event) {
                     ], obj.getElementById);
                 return fn.apply(obj, arguments);
             }.bind(this)('width2').value);
-        var colors = __recognizer935067708.logProbe([
+        var colors = __recognizer455719278.logProbe([
                 98,
                 55,
                 98,
                 60
             ], function () {
-                var obj = __recognizer935067708.logProbe([
+                var obj = __recognizer455719278.logProbe([
                         98,
                         21,
                         98,
                         29
-                    ], document), fn = __recognizer935067708.logProbe([
+                    ], document), fn = __recognizer455719278.logProbe([
                         98,
                         30,
                         98,
@@ -721,89 +721,89 @@ function isKeyPressed(event) {
                 return fn.apply(obj, arguments);
             }.bind(this)('colors').value);
         cntxt.lineWidth = 5;
-        cntxt.fillStyle = __recognizer935067708.logProbe([
+        cntxt.fillStyle = __recognizer455719278.logProbe([
             102,
             28,
             102,
             32
         ], fill);
-        cntxt.strokeStyle = __recognizer935067708.logProbe([
+        cntxt.strokeStyle = __recognizer455719278.logProbe([
             103,
             30,
             103,
             36
         ], colors);
         (function () {
-            var obj = __recognizer935067708.logProbe([
+            var obj = __recognizer455719278.logProbe([
                     104,
                     10,
                     104,
                     15
-                ], cntxt), fn = __recognizer935067708.logProbe([
+                ], cntxt), fn = __recognizer455719278.logProbe([
                     104,
                     16,
                     104,
                     22
                 ], obj.lineTo);
             return fn.apply(obj, arguments);
-        }.bind(this)(__recognizer935067708.logProbe([
+        }.bind(this)(__recognizer455719278.logProbe([
             104,
             23,
             104,
             24
-        ], x) - __recognizer935067708.logProbe([
+        ], x) - __recognizer455719278.logProbe([
             104,
             43,
             104,
             44
-        ], __recognizer935067708.logProbe([
+        ], __recognizer455719278.logProbe([
             104,
             27,
             104,
             42
-        ], __recognizer935067708.logProbe([
+        ], __recognizer455719278.logProbe([
             104,
             27,
             104,
             34
-        ], findPos)(__recognizer935067708.logProbe([
+        ], findPos)(__recognizer455719278.logProbe([
             104,
             35,
             104,
             41
-        ], canvas)))[0]), __recognizer935067708.logProbe([
+        ], canvas)))[0]), __recognizer455719278.logProbe([
             104,
             47,
             104,
             48
-        ], y) - __recognizer935067708.logProbe([
+        ], y) - __recognizer455719278.logProbe([
             104,
             67,
             104,
             68
-        ], __recognizer935067708.logProbe([
+        ], __recognizer455719278.logProbe([
             104,
             51,
             104,
             66
-        ], __recognizer935067708.logProbe([
+        ], __recognizer455719278.logProbe([
             104,
             51,
             104,
             58
-        ], findPos)(__recognizer935067708.logProbe([
+        ], findPos)(__recognizer455719278.logProbe([
             104,
             59,
             104,
             65
         ], canvas)))[1])));
         (function () {
-            var obj = __recognizer935067708.logProbe([
+            var obj = __recognizer455719278.logProbe([
                     105,
                     10,
                     105,
                     15
-                ], cntxt), fn = __recognizer935067708.logProbe([
+                ], cntxt), fn = __recognizer455719278.logProbe([
                     105,
                     16,
                     105,
@@ -812,12 +812,12 @@ function isKeyPressed(event) {
             return fn.apply(obj, arguments);
         }.bind(this)());
         (function () {
-            var obj = __recognizer935067708.logProbe([
+            var obj = __recognizer455719278.logProbe([
                     106,
                     10,
                     106,
                     15
-                ], cntxt), fn = __recognizer935067708.logProbe([
+                ], cntxt), fn = __recognizer455719278.logProbe([
                     106,
                     16,
                     106,
@@ -828,66 +828,66 @@ function isKeyPressed(event) {
     }
 }
 function findPos(obj) {
-    __recognizer935067708.logEntry([
+    __recognizer455719278.logEntry([
         112,
         9,
         112,
         16
     ], arguments);
     var curleft = curtop = 0;
-    if (__recognizer935067708.logProbe([
+    if (__recognizer455719278.logProbe([
             115,
             12,
             115,
             24
-        ], __recognizer935067708.logProbe([
+        ], __recognizer455719278.logProbe([
             115,
             8,
             115,
             11
         ], obj).offsetParent)) {
         do {
-            curleft += __recognizer935067708.logProbe([
+            curleft += __recognizer455719278.logProbe([
                 117,
                 27,
                 117,
                 37
-            ], __recognizer935067708.logProbe([
+            ], __recognizer455719278.logProbe([
                 117,
                 23,
                 117,
                 26
             ], obj).offsetLeft);
-            curtop += __recognizer935067708.logProbe([
+            curtop += __recognizer455719278.logProbe([
                 118,
                 26,
                 118,
                 35
-            ], __recognizer935067708.logProbe([
+            ], __recognizer455719278.logProbe([
                 118,
                 22,
                 118,
                 25
             ], obj).offsetTop);
-        } while (obj = __recognizer935067708.logProbe([
+        } while (obj = __recognizer455719278.logProbe([
             119,
             27,
             119,
             39
-        ], __recognizer935067708.logProbe([
+        ], __recognizer455719278.logProbe([
             119,
             23,
             119,
             26
         ], obj).offsetParent));
         return [
-            __recognizer935067708.logProbe([
+            __recognizer455719278.logProbe([
                 120,
                 16,
                 120,
                 23
             ], curleft),
-            __recognizer935067708.logProbe([
+            __recognizer455719278.logProbe([
                 120,
                 25,
                 120,
@@ -897,7 +897,7 @@ function findPos(obj) {
     }
 }
 function canvas2() {
-    __recognizer935067708.logEntry([
+    __recognizer455719278.logEntry([
         131,
         9,
         131,
@@ -905,12 +905,12 @@ function canvas2() {
     ], arguments);
     document.getElementById('Logo').style.background = 'url(images/' + 'w.png' + ')center';
     var leftDiv = function () {
-            var obj = __recognizer935067708.logProbe([
+            var obj = __recognizer455719278.logProbe([
                     134,
                     18,
                     134,
                     26
-                ], document), fn = __recognizer935067708.logProbe([
+                ], document), fn = __recognizer455719278.logProbe([
                     134,
                     27,
                     134,
@@ -919,12 +919,12 @@ function canvas2() {
             return fn.apply(obj, arguments);
         }.bind(this)('left');
     var rightDiv = function () {
-            var obj = __recognizer935067708.logProbe([
+            var obj = __recognizer455719278.logProbe([
                     135,
                     19,
                     135,
                     27
-                ], document), fn = __recognizer935067708.logProbe([
+                ], document), fn = __recognizer455719278.logProbe([
                     135,
                     28,
                     135,
@@ -933,12 +933,12 @@ function canvas2() {
             return fn.apply(obj, arguments);
         }.bind(this)('right');
     var Div = function () {
-            var obj = __recognizer935067708.logProbe([
+            var obj = __recognizer455719278.logProbe([
                     137,
                     14,
                     137,
                     22
-                ], document), fn = __recognizer935067708.logProbe([
+                ], document), fn = __recognizer455719278.logProbe([
                     137,
                     23,
                     137,
@@ -947,12 +947,12 @@ function canvas2() {
             return fn.apply(obj, arguments);
         }.bind(this)('div');
     (function () {
-        var obj = __recognizer935067708.logProbe([
+        var obj = __recognizer455719278.logProbe([
                 138,
                 8,
                 138,
                 11
-            ], Div), fn = __recognizer935067708.logProbe([
+            ], Div), fn = __recognizer455719278.logProbe([
                 138,
                 12,
                 138,
@@ -961,31 +961,31 @@ function canvas2() {
         return fn.apply(obj, arguments);
     }.bind(this)('id', 'menu'));
     (function () {
-        var obj = __recognizer935067708.logProbe([
+        var obj = __recognizer455719278.logProbe([
                 139,
                 8,
                 139,
                 15
-            ], leftDiv), fn = __recognizer935067708.logProbe([
+            ], leftDiv), fn = __recognizer455719278.logProbe([
                 139,
                 16,
                 139,
                 27
             ], obj.appendChild);
         return fn.apply(obj, arguments);
-    }.bind(this)(__recognizer935067708.logProbe([
+    }.bind(this)(__recognizer455719278.logProbe([
         139,
         28,
         139,
         31
     ], Div)));
     var menuDiv = function () {
-            var obj = __recognizer935067708.logProbe([
+            var obj = __recognizer455719278.logProbe([
                     141,
                     18,
                     141,
                     26
-                ], document), fn = __recognizer935067708.logProbe([
+                ], document), fn = __recognizer455719278.logProbe([
                     141,
                     27,
                     141,
@@ -994,12 +994,12 @@ function canvas2() {
             return fn.apply(obj, arguments);
         }.bind(this)('menu');
     var downloadButton = function () {
-            var obj = __recognizer935067708.logProbe([
+            var obj = __recognizer455719278.logProbe([
                     143,
                     25,
                     143,
                     33
-                ], document), fn = __recognizer935067708.logProbe([
+                ], document), fn = __recognizer455719278.logProbe([
                     143,
                     34,
                     143,
@@ -1008,12 +1008,12 @@ function canvas2() {
             return fn.apply(obj, arguments);
         }.bind(this)('button');
     (function () {
-        var obj = __recognizer935067708.logProbe([
+        var obj = __recognizer455719278.logProbe([
                 144,
                 8,
                 144,
                 22
-            ], downloadButton), fn = __recognizer935067708.logProbe([
+            ], downloadButton), fn = __recognizer455719278.logProbe([
                 144,
                 23,
                 144,
@@ -1023,31 +1023,31 @@ function canvas2() {
     }.bind(this)('id', 'download'));
     downloadButton.innerHTML = 'Download';
     (function () {
-        var obj = __recognizer935067708.logProbe([
+        var obj = __recognizer455719278.logProbe([
                 146,
                 8,
                 146,
                 15
-            ], menuDiv), fn = __recognizer935067708.logProbe([
+            ], menuDiv), fn = __recognizer455719278.logProbe([
                 146,
                 16,
                 146,
                 27
             ], obj.appendChild);
         return fn.apply(obj, arguments);
-    }.bind(this)(__recognizer935067708.logProbe([
+    }.bind(this)(__recognizer455719278.logProbe([
         146,
         28,
         146,
         42
     ], downloadButton)));
     var clearButton = function () {
-            var obj = __recognizer935067708.logProbe([
+            var obj = __recognizer455719278.logProbe([
                     148,
                     22,
                     148,
                     30
-                ], document), fn = __recognizer935067708.logProbe([
+                ], document), fn = __recognizer455719278.logProbe([
                     148,
                     31,
                     148,
@@ -1056,12 +1056,12 @@ function canvas2() {
             return fn.apply(obj, arguments);
         }.bind(this)('button');
     (function () {
-        var obj = __recognizer935067708.logProbe([
+        var obj = __recognizer455719278.logProbe([
                 149,
                 8,
                 149,
                 19
-            ], clearButton), fn = __recognizer935067708.logProbe([
+            ], clearButton), fn = __recognizer455719278.logProbe([
                 149,
                 20,
                 149,
@@ -1071,31 +1071,31 @@ function canvas2() {
     }.bind(this)('id', 'clear'));
     clearButton.innerHTML = 'Clear';
     (function () {
-        var obj = __recognizer935067708.logProbe([
+        var obj = __recognizer455719278.logProbe([
                 151,
                 8,
                 151,
                 15
-            ], menuDiv), fn = __recognizer935067708.logProbe([
+            ], menuDiv), fn = __recognizer455719278.logProbe([
                 151,
                 16,
                 151,
                 27
             ], obj.appendChild);
         return fn.apply(obj, arguments);
-    }.bind(this)(__recognizer935067708.logProbe([
+    }.bind(this)(__recognizer455719278.logProbe([
         151,
         28,
         151,
         39
     ], clearButton)));
     var lineH2 = function () {
-            var obj = __recognizer935067708.logProbe([
+            var obj = __recognizer455719278.logProbe([
                     153,
                     17,
                     153,
                     25
-                ], document), fn = __recognizer935067708.logProbe([
+                ], document), fn = __recognizer455719278.logProbe([
                     153,
                     26,
                     153,
@@ -1105,31 +1105,31 @@ function canvas2() {
         }.bind(this)('h2');
     lineH2.innerHTML = 'Line';
     (function () {
-        var obj = __recognizer935067708.logProbe([
+        var obj = __recognizer455719278.logProbe([
                 155,
                 8,
                 155,
                 15
-            ], menuDiv), fn = __recognizer935067708.logProbe([
+            ], menuDiv), fn = __recognizer455719278.logProbe([
                 155,
                 16,
                 155,
                 27
             ], obj.appendChild);
         return fn.apply(obj, arguments);
-    }.bind(this)(__recognizer935067708.logProbe([
+    }.bind(this)(__recognizer455719278.logProbe([
         155,
         28,
         155,
         34
     ], lineH2)));
     var lineWidth = function () {
-            var obj = __recognizer935067708.logProbe([
+            var obj = __recognizer455719278.logProbe([
                     157,
                     20,
                     157,
                     28
-                ], document), fn = __recognizer935067708.logProbe([
+                ], document), fn = __recognizer455719278.logProbe([
                     157,
                     29,
                     157,
@@ -1138,12 +1138,12 @@ function canvas2() {
             return fn.apply(obj, arguments);
         }.bind(this)('select');
     (function () {
-        var obj = __recognizer935067708.logProbe([
+        var obj = __recognizer455719278.logProbe([
                 158,
                 8,
                 158,
                 17
-            ], lineWidth), fn = __recognizer935067708.logProbe([
+            ], lineWidth), fn = __recognizer455719278.logProbe([
                 158,
                 18,
                 158,
@@ -1161,34 +1161,34 @@ function canvas2() {
             'Middle',
             'Thick'
         ];
-    for (var i = 0; __recognizer935067708.logProbe([
+    for (var i = 0; __recognizer455719278.logProbe([
             163,
             20,
             163,
             21
-        ], i) < __recognizer935067708.logProbe([
+        ], i) < __recognizer455719278.logProbe([
             163,
             29,
             163,
             35
-        ], __recognizer935067708.logProbe([
+        ], __recognizer455719278.logProbe([
             163,
             24,
             163,
             28
-        ], text).length); __recognizer935067708.logProbe([
+        ], text).length); __recognizer455719278.logProbe([
             163,
             37,
             163,
             38
         ], i)++) {
         var options = function () {
-                var obj = __recognizer935067708.logProbe([
+                var obj = __recognizer455719278.logProbe([
                         164,
                         22,
                         164,
                         30
-                    ], document), fn = __recognizer935067708.logProbe([
+                    ], document), fn = __recognizer455719278.logProbe([
                         164,
                         31,
                         164,
@@ -1197,54 +1197,54 @@ function canvas2() {
                 return fn.apply(obj, arguments);
             }.bind(this)('option');
         (function () {
-            var obj = __recognizer935067708.logProbe([
+            var obj = __recognizer455719278.logProbe([
                     165,
                     12,
                     165,
                     19
-                ], options), fn = __recognizer935067708.logProbe([
+                ], options), fn = __recognizer455719278.logProbe([
                     165,
                     20,
                     165,
                     32
                 ], obj.setAttribute);
             return fn.apply(obj, arguments);
-        }.bind(this)('value', __recognizer935067708.logProbe([
+        }.bind(this)('value', __recognizer455719278.logProbe([
             165,
             48,
             165,
             49
-        ], __recognizer935067708.logProbe([
+        ], __recognizer455719278.logProbe([
             165,
             42,
             165,
             47
         ], value)[i])));
-        options.innerHTML = __recognizer935067708.logProbe([
+        options.innerHTML = __recognizer455719278.logProbe([
             166,
             37,
             166,
             38
-        ], __recognizer935067708.logProbe([
+        ], __recognizer455719278.logProbe([
             166,
             32,
             166,
             36
         ], text)[i]);
         (function () {
-            var obj = __recognizer935067708.logProbe([
+            var obj = __recognizer455719278.logProbe([
                     167,
                     12,
                     167,
                     21
-                ], lineWidth), fn = __recognizer935067708.logProbe([
+                ], lineWidth), fn = __recognizer455719278.logProbe([
                     167,
                     22,
                     167,
                     33
                 ], obj.appendChild);
             return fn.apply(obj, arguments);
-        }.bind(this)(__recognizer935067708.logProbe([
+        }.bind(this)(__recognizer455719278.logProbe([
             167,
             34,
             167,
@@ -1252,31 +1252,31 @@ function canvas2() {
         ], options)));
     }
     (function () {
-        var obj = __recognizer935067708.logProbe([
+        var obj = __recognizer455719278.logProbe([
                 170,
                 4,
                 170,
                 11
-            ], menuDiv), fn = __recognizer935067708.logProbe([
+            ], menuDiv), fn = __recognizer455719278.logProbe([
                 170,
                 12,
                 170,
                 23
             ], obj.appendChild);
         return fn.apply(obj, arguments);
-    }.bind(this)(__recognizer935067708.logProbe([
+    }.bind(this)(__recognizer455719278.logProbe([
         170,
         24,
         170,
         33
     ], lineWidth)));
     var colorH2 = function () {
-            var obj = __recognizer935067708.logProbe([
+            var obj = __recognizer455719278.logProbe([
                     173,
                     18,
                     173,
                     26
-                ], document), fn = __recognizer935067708.logProbe([
+                ], document), fn = __recognizer455719278.logProbe([
                     173,
                     27,
                     173,
@@ -1286,31 +1286,31 @@ function canvas2() {
         }.bind(this)('h2');
     colorH2.innerHTML = 'Colors';
     (function () {
-        var obj = __recognizer935067708.logProbe([
+        var obj = __recognizer455719278.logProbe([
                 175,
                 8,
                 175,
                 15
-            ], menuDiv), fn = __recognizer935067708.logProbe([
+            ], menuDiv), fn = __recognizer455719278.logProbe([
                 175,
                 16,
                 175,
                 27
             ], obj.appendChild);
         return fn.apply(obj, arguments);
-    }.bind(this)(__recognizer935067708.logProbe([
+    }.bind(this)(__recognizer455719278.logProbe([
         175,
         28,
         175,
         35
     ], colorH2)));
     var lineWidth2 = function () {
-            var obj = __recognizer935067708.logProbe([
+            var obj = __recognizer455719278.logProbe([
                     177,
                     21,
                     177,
                     29
-                ], document), fn = __recognizer935067708.logProbe([
+                ], document), fn = __recognizer455719278.logProbe([
                     177,
                     30,
                     177,
@@ -1319,12 +1319,12 @@ function canvas2() {
             return fn.apply(obj, arguments);
         }.bind(this)('select');
     (function () {
-        var obj = __recognizer935067708.logProbe([
+        var obj = __recognizer455719278.logProbe([
                 178,
                 8,
                 178,
                 18
-            ], lineWidth2), fn = __recognizer935067708.logProbe([
+            ], lineWidth2), fn = __recognizer455719278.logProbe([
                 178,
                 19,
                 178,
@@ -1350,34 +1350,34 @@ function canvas2() {
             'Purple',
             'White'
         ];
-    for (var i = 0; __recognizer935067708.logProbe([
+    for (var i = 0; __recognizer455719278.logProbe([
             183,
             20,
             183,
             21
-        ], i) < __recognizer935067708.logProbe([
+        ], i) < __recognizer455719278.logProbe([
             183,
             30,
             183,
             36
-        ], __recognizer935067708.logProbe([
+        ], __recognizer455719278.logProbe([
             183,
             24,
             183,
             29
-        ], text1).length); __recognizer935067708.logProbe([
+        ], text1).length); __recognizer455719278.logProbe([
             183,
             38,
             183,
             39
         ], i)++) {
         var optionss = function () {
-                var obj = __recognizer935067708.logProbe([
+                var obj = __recognizer455719278.logProbe([
                         184,
                         23,
                         184,
                         31
-                    ], document), fn = __recognizer935067708.logProbe([
+                    ], document), fn = __recognizer455719278.logProbe([
                         184,
                         32,
                         184,
@@ -1386,54 +1386,54 @@ function canvas2() {
                 return fn.apply(obj, arguments);
             }.bind(this)('option');
         (function () {
-            var obj = __recognizer935067708.logProbe([
+            var obj = __recognizer455719278.logProbe([
                     185,
                     12,
                     185,
                     20
-                ], optionss), fn = __recognizer935067708.logProbe([
+                ], optionss), fn = __recognizer455719278.logProbe([
                     185,
                     21,
                     185,
                     33
                 ], obj.setAttribute);
             return fn.apply(obj, arguments);
-        }.bind(this)('value', __recognizer935067708.logProbe([
+        }.bind(this)('value', __recognizer455719278.logProbe([
             185,
             50,
             185,
             51
-        ], __recognizer935067708.logProbe([
+        ], __recognizer455719278.logProbe([
             185,
             43,
             185,
             49
         ], value1)[i])));
-        optionss.innerHTML = __recognizer935067708.logProbe([
+        optionss.innerHTML = __recognizer455719278.logProbe([
             186,
             39,
             186,
             40
-        ], __recognizer935067708.logProbe([
+        ], __recognizer455719278.logProbe([
             186,
             33,
             186,
             38
         ], text1)[i]);
         (function () {
-            var obj = __recognizer935067708.logProbe([
+            var obj = __recognizer455719278.logProbe([
                     187,
                     12,
                     187,
                     22
-                ], lineWidth2), fn = __recognizer935067708.logProbe([
+                ], lineWidth2), fn = __recognizer455719278.logProbe([
                     187,
                     23,
                     187,
                     34
                 ], obj.appendChild);
             return fn.apply(obj, arguments);
-        }.bind(this)(__recognizer935067708.logProbe([
+        }.bind(this)(__recognizer455719278.logProbe([
             187,
             35,
             187,
@@ -1441,31 +1441,31 @@ function canvas2() {
         ], optionss)));
     }
     (function () {
-        var obj = __recognizer935067708.logProbe([
+        var obj = __recognizer455719278.logProbe([
                 189,
                 4,
                 189,
                 11
-            ], menuDiv), fn = __recognizer935067708.logProbe([
+            ], menuDiv), fn = __recognizer455719278.logProbe([
                 189,
                 12,
                 189,
                 23
             ], obj.appendChild);
         return fn.apply(obj, arguments);
-    }.bind(this)(__recognizer935067708.logProbe([
+    }.bind(this)(__recognizer455719278.logProbe([
         189,
         24,
         189,
         34
     ], lineWidth2)));
     var colorH2 = function () {
-            var obj = __recognizer935067708.logProbe([
+            var obj = __recognizer455719278.logProbe([
                     192,
                     18,
                     192,
                     26
-                ], document), fn = __recognizer935067708.logProbe([
+                ], document), fn = __recognizer455719278.logProbe([
                     192,
                     27,
                     192,
@@ -1475,31 +1475,31 @@ function canvas2() {
         }.bind(this)('h2');
     colorH2.innerHTML = 'Fill';
     (function () {
-        var obj = __recognizer935067708.logProbe([
+        var obj = __recognizer455719278.logProbe([
                 194,
                 8,
                 194,
                 15
-            ], menuDiv), fn = __recognizer935067708.logProbe([
+            ], menuDiv), fn = __recognizer455719278.logProbe([
                 194,
                 16,
                 194,
                 27
             ], obj.appendChild);
         return fn.apply(obj, arguments);
-    }.bind(this)(__recognizer935067708.logProbe([
+    }.bind(this)(__recognizer455719278.logProbe([
         194,
         28,
         194,
         35
     ], colorH2)));
     var lineWidth3 = function () {
-            var obj = __recognizer935067708.logProbe([
+            var obj = __recognizer455719278.logProbe([
                     197,
                     21,
                     197,
                     29
-                ], document), fn = __recognizer935067708.logProbe([
+                ], document), fn = __recognizer455719278.logProbe([
                     197,
                     30,
                     197,
@@ -1508,12 +1508,12 @@ function canvas2() {
             return fn.apply(obj, arguments);
         }.bind(this)('select');
     (function () {
-        var obj = __recognizer935067708.logProbe([
+        var obj = __recognizer455719278.logProbe([
                 198,
                 8,
                 198,
                 18
-            ], lineWidth3), fn = __recognizer935067708.logProbe([
+            ], lineWidth3), fn = __recognizer455719278.logProbe([
                 198,
                 19,
                 198,
@@ -1521,34 +1521,34 @@ function canvas2() {
             ], obj.setAttribute);
         return fn.apply(obj, arguments);
     }.bind(this)('id', 'fill'));
-    for (var i = 0; __recognizer935067708.logProbe([
+    for (var i = 0; __recognizer455719278.logProbe([
             200,
             20,
             200,
             21
-        ], i) < __recognizer935067708.logProbe([
+        ], i) < __recognizer455719278.logProbe([
             200,
             30,
             200,
             36
-        ], __recognizer935067708.logProbe([
+        ], __recognizer455719278.logProbe([
             200,
             24,
             200,
             29
-        ], text1).length); __recognizer935067708.logProbe([
+        ], text1).length); __recognizer455719278.logProbe([
             200,
             38,
             200,
             39
         ], i)++) {
         var options = function () {
-                var obj = __recognizer935067708.logProbe([
+                var obj = __recognizer455719278.logProbe([
                         201,
                         22,
                         201,
                         30
-                    ], document), fn = __recognizer935067708.logProbe([
+                    ], document), fn = __recognizer455719278.logProbe([
                         201,
                         31,
                         201,
@@ -1557,54 +1557,54 @@ function canvas2() {
                 return fn.apply(obj, arguments);
             }.bind(this)('option');
         (function () {
-            var obj = __recognizer935067708.logProbe([
+            var obj = __recognizer455719278.logProbe([
                     202,
                     12,
                     202,
                     19
-                ], options), fn = __recognizer935067708.logProbe([
+                ], options), fn = __recognizer455719278.logProbe([
                     202,
                     20,
                     202,
                     32
                 ], obj.setAttribute);
             return fn.apply(obj, arguments);
-        }.bind(this)('value', __recognizer935067708.logProbe([
+        }.bind(this)('value', __recognizer455719278.logProbe([
             202,
             49,
             202,
             50
-        ], __recognizer935067708.logProbe([
+        ], __recognizer455719278.logProbe([
             202,
             42,
             202,
             48
         ], value1)[i])));
-        options.innerHTML = __recognizer935067708.logProbe([
+        options.innerHTML = __recognizer455719278.logProbe([
             203,
             38,
             203,
             39
-        ], __recognizer935067708.logProbe([
+        ], __recognizer455719278.logProbe([
             203,
             32,
             203,
             37
         ], text1)[i]);
         (function () {
-            var obj = __recognizer935067708.logProbe([
+            var obj = __recognizer455719278.logProbe([
                     204,
                     12,
                     204,
                     22
-                ], lineWidth3), fn = __recognizer935067708.logProbe([
+                ], lineWidth3), fn = __recognizer455719278.logProbe([
                     204,
                     23,
                     204,
                     34
                 ], obj.appendChild);
             return fn.apply(obj, arguments);
-        }.bind(this)(__recognizer935067708.logProbe([
+        }.bind(this)(__recognizer455719278.logProbe([
             204,
             35,
             204,
@@ -1612,31 +1612,31 @@ function canvas2() {
         ], options)));
     }
     (function () {
-        var obj = __recognizer935067708.logProbe([
+        var obj = __recognizer455719278.logProbe([
                 206,
                 4,
                 206,
                 11
-            ], menuDiv), fn = __recognizer935067708.logProbe([
+            ], menuDiv), fn = __recognizer455719278.logProbe([
                 206,
                 12,
                 206,
                 23
             ], obj.appendChild);
         return fn.apply(obj, arguments);
-    }.bind(this)(__recognizer935067708.logProbe([
+    }.bind(this)(__recognizer455719278.logProbe([
         206,
         24,
         206,
         34
     ], lineWidth3)));
     var newCanvas = function () {
-            var obj = __recognizer935067708.logProbe([
+            var obj = __recognizer455719278.logProbe([
                     208,
                     20,
                     208,
                     28
-                ], document), fn = __recognizer935067708.logProbe([
+                ], document), fn = __recognizer455719278.logProbe([
                     208,
                     29,
                     208,
@@ -1647,12 +1647,12 @@ function canvas2() {
     newCanvas.width = 400;
     newCanvas.height = 600;
     (function () {
-        var obj = __recognizer935067708.logProbe([
+        var obj = __recognizer455719278.logProbe([
                 211,
                 8,
                 211,
                 17
-            ], newCanvas), fn = __recognizer935067708.logProbe([
+            ], newCanvas), fn = __recognizer455719278.logProbe([
                 211,
                 18,
                 211,
@@ -1662,38 +1662,38 @@ function canvas2() {
     }.bind(this)('id', 'canvas_1'));
     (function () {
         var obj = function () {
-                var obj = __recognizer935067708.logProbe([
+                var obj = __recognizer455719278.logProbe([
                         212,
                         8,
                         212,
                         16
-                    ], document), fn = __recognizer935067708.logProbe([
+                    ], document), fn = __recognizer455719278.logProbe([
                         212,
                         17,
                         212,
                         31
                     ], obj.getElementById);
                 return fn.apply(obj, arguments);
-            }.bind(this)('right'), fn = __recognizer935067708.logProbe([
+            }.bind(this)('right'), fn = __recognizer455719278.logProbe([
                 212,
                 41,
                 212,
                 52
             ], obj.appendChild);
         return fn.apply(obj, arguments);
-    }.bind(this)(__recognizer935067708.logProbe([
+    }.bind(this)(__recognizer455719278.logProbe([
         212,
         53,
         212,
         62
     ], newCanvas)));
     canvas = function () {
-        var obj = __recognizer935067708.logProbe([
+        var obj = __recognizer455719278.logProbe([
                 215,
                 17,
                 215,
                 25
-            ], document), fn = __recognizer935067708.logProbe([
+            ], document), fn = __recognizer455719278.logProbe([
                 215,
                 26,
                 215,
@@ -1702,57 +1702,57 @@ function canvas2() {
         return fn.apply(obj, arguments);
     }.bind(this)('canvas_1');
     (function () {
-        var obj = __recognizer935067708.logProbe([
+        var obj = __recognizer455719278.logProbe([
                 216,
                 8,
                 216,
                 14
-            ], canvas), fn = __recognizer935067708.logProbe([
+            ], canvas), fn = __recognizer455719278.logProbe([
                 216,
                 15,
                 216,
                 31
             ], obj.addEventListener);
         return fn.apply(obj, arguments);
-    }.bind(this)('mousedown', __recognizer935067708.logProbe([
+    }.bind(this)('mousedown', __recognizer455719278.logProbe([
         216,
         45,
         216,
         56
     ], doMouseDown), false));
     (function () {
-        var obj = __recognizer935067708.logProbe([
+        var obj = __recognizer455719278.logProbe([
                 217,
                 8,
                 217,
                 14
-            ], canvas), fn = __recognizer935067708.logProbe([
+            ], canvas), fn = __recognizer455719278.logProbe([
                 217,
                 15,
                 217,
                 31
             ], obj.addEventListener);
         return fn.apply(obj, arguments);
-    }.bind(this)('mouseup', __recognizer935067708.logProbe([
+    }.bind(this)('mouseup', __recognizer455719278.logProbe([
         217,
         43,
         217,
         52
     ], doMouseUp), false));
     (function () {
-        var obj = __recognizer935067708.logProbe([
+        var obj = __recognizer455719278.logProbe([
                 218,
                 8,
                 218,
                 14
-            ], canvas), fn = __recognizer935067708.logProbe([
+            ], canvas), fn = __recognizer455719278.logProbe([
                 218,
                 15,
                 218,
                 31
             ], obj.addEventListener);
         return fn.apply(obj, arguments);
-    }.bind(this)('mousemove', __recognizer935067708.logProbe([
+    }.bind(this)('mousemove', __recognizer455719278.logProbe([
         218,
         45,
         218,
@@ -1760,26 +1760,26 @@ function canvas2() {
     ], doMouseMove), false));
     (function () {
         var obj = function () {
-                var obj = __recognizer935067708.logProbe([
+                var obj = __recognizer455719278.logProbe([
                         219,
                         8,
                         219,
                         16
-                    ], document), fn = __recognizer935067708.logProbe([
+                    ], document), fn = __recognizer455719278.logProbe([
                         219,
                         17,
                         219,
                         31
                     ], obj.getElementById);
                 return fn.apply(obj, arguments);
-            }.bind(this)('clear'), fn = __recognizer935067708.logProbe([
+            }.bind(this)('clear'), fn = __recognizer455719278.logProbe([
                 219,
                 41,
                 219,
                 57
             ], obj.addEventListener);
         return fn.apply(obj, arguments);
-    }.bind(this)('click', __recognizer935067708.logProbe([
+    }.bind(this)('click', __recognizer455719278.logProbe([
         219,
         67,
         219,
@@ -1787,37 +1787,37 @@ function canvas2() {
     ], cleanStart), false));
     (function () {
         var obj = function () {
-                var obj = __recognizer935067708.logProbe([
+                var obj = __recognizer455719278.logProbe([
                         220,
                         8,
                         220,
                         16
-                    ], document), fn = __recognizer935067708.logProbe([
+                    ], document), fn = __recognizer455719278.logProbe([
                         220,
                         17,
                         220,
                         31
                     ], obj.getElementById);
                 return fn.apply(obj, arguments);
-            }.bind(this)('download'), fn = __recognizer935067708.logProbe([
+            }.bind(this)('download'), fn = __recognizer455719278.logProbe([
                 220,
                 44,
                 220,
                 60
             ], obj.addEventListener);
         return fn.apply(obj, arguments);
-    }.bind(this)('click', __recognizer935067708.logProbe([
+    }.bind(this)('click', __recognizer455719278.logProbe([
         220,
         70,
         220,
         84
     ], downloadCanvas), false));
-    __recognizer935067708.logProbe([
+    __recognizer455719278.logProbe([
         222,
         4,
         222,
         16
-    ], __recognizer935067708.logProbe([
+    ], __recognizer455719278.logProbe([
         222,
         4,
         222,
